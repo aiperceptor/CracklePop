@@ -7,8 +7,8 @@ function cracklePop() {
         let output = '';
         if (i % 3 === 0) output = 'Crackle';
         if (i % 5 === 0) output += 'Pop';
-        if (output) console.log(output);
-        else console.log(i);
+        if (!output) output = i;
+        console.log(output);
     }
 }
 
