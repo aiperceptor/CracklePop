@@ -3,7 +3,6 @@ Write a program that prints out the numbers 1 to 100 (inclusive). If the number 
 */
 
 function cracklePop() {
-    let str = '';
     for (let i = 1; i <= 100; i++) {
         let output = '';
         if (i % 3 === 0) output = 'Crackle';
